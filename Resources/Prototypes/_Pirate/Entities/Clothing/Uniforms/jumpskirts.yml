@@ -19,3 +19,15 @@
     sprite: _Pirate/Clothing/Uniforms/Jumpskirt/headmaid.rsi
   - type: Clothing
     sprite: _Pirate/Clothing/Uniforms/Jumpskirt/headmaid.rsi
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,3,1
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
